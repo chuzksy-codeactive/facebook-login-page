@@ -1,0 +1,339 @@
+/*{
+    border: 1px solid red !important;
+}*/
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* Defining Grid system */
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.col-1{
+    width: 8.33%;
+}
+
+.col-2{
+    width: 16.66%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+    width: 33.33%;
+}
+
+.col-5{
+    width: 41.66%;
+}
+
+.col-6{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.col-7{
+    width: 58.33%;
+}
+
+.col-8{
+    width: 66.66%;
+}
+
+.col-9{
+    width: 75%;
+}
+
+.col-10{
+    width: 83.33%;
+}
+
+.col-11{
+    width: 91.66%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+/* The main body styling */
+body, button, input, label, td, textarea{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+body{
+    background: #fff;
+    color: #1d2129;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+}
+
+/* The header styling */
+.main_header{
+    background-color: #3b5998;
+    background: linear-gradient(#4369a2, #3b5998 50%);
+    border-bottom: 1px solid #133783;
+    min-height: 42px;
+}
+.header_content{
+    height: 82px;
+    min-width: 980px;
+    margin: 0 auto;
+    width: 980px;
+}
+.facebook a{
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-stretch: normal;
+    font-weight: bold;
+}
+.facebook{
+    padding-top: 8px;
+}
+.facebook_content{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.float-right{
+    float: right;
+    padding-top: 12px;
+}
+form{
+    margin: 0;
+    padding: 0;
+}
+table{
+    display: table;
+    border-collapse: separate;
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+}
+tr{
+    display: table-row;
+    vertical-align: top;
+}
+td{
+    display: table-cell;
+    text-align: left;
+    padding: 0 0 4px 14px;
+}
+td div{
+    display: block;
+}
+td div a{
+    text-decoration: none;
+    color: #9cb4d8;
+    font-weight: normal;
+}
+td div a:hover{
+    text-decoration: underline;
+}
+td label{
+    color: #fff;
+    font-weight: normal;
+    padding-left: 1px;
+}
+.input_text{
+    border: 1px solid #1d2a5b;
+    margin: 0;
+    width: 142px;
+    padding-bottom: 4px;
+    color: rgb(0, 0, 0);
+}
+.label{
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    font-weight: normal;
+    color: #fff;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+/** Facebook main content **/
+.fb_all{
+    background: #feffff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#feffff, #D3D8E8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#feffff, #D3D8E8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#feffff, #D3D8E8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#feffff, #D3D8E8); /* Standard syntax */
+}
+.float-left{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+img{
+    border: 0;
+}
+.center_content{
+    width: 980px;
+    margin: 0 auto;
+}
+.max_width{
+    max-width: 400px;
+}
+.reg_input {
+	border-radius: 5px;
+	margin: 0;
+	border: 1px solid #bdc7d9;
+	height: 40px;
+	font-size: 19px;
+	font-weight: normal;
+	color: #1d2129;
+	padding-left: 10px;
+	padding-top: 8px;
+	padding-bottom: 7px;
+    padding-right: 5px;
+}
+.reg_input:focus{
+    border: 2px solid #4286DD;
+}
+.reg_input:hover{
+    border: 2px solid #bdc7d9;
+}
+.birthday{
+    float: left;
+}
+.birthday option{
+    height: 25px;
+    font-weight: normal;
+    color: #1d2129;
+}
+.birthday select{
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+
+}
+.birthday a{
+    padding-left:10px;
+    font-size: 11px;
+    text-decoration: none;
+    display: inline-block;
+    max-width: 150px;
+    color: #365899
+}
+.birthday a:hover{
+    text-decoration: underline;
+}
+.sex{
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+}
+._fp{
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+    margin-top: 25px;
+
+}
+._fpp{
+    border-top: 1px solid #dddfe2;
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+._fp a{
+    text-decoration: none;
+    color: #365899;
+}
+._fpp a{
+    text-decoration: none;
+    color: #365899;
+}
+._fp a:hover{
+    text-decoration: underline;
+}
+._fpp a:hover{
+    text-decoration: underline;
+}
+.button{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100px;
+    border: 1px solid #3B6E22;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(#A3E287, #588B44 5%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#A3E287, #588B44 5%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#A3E287, #588B44 5%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#A3E287, #588B44 5%); /* Standard syntax */
+    height: 40px;
+    width: 200px;
+}
+
+/** Footer styling **/
+.footer{
+    width: 980px;
+    padding: 0;
+    margin: 0 auto;
+}
+.footer_first{
+    border-bottom: 1px solid #DDDFE2;
+    margin-bottom: 10px;
+}
+.footer_first ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #737373;
+    padding-bottom: 10px;    
+}
+.footer_first ul li{
+    display: inline;
+    padding-right: 15px;
+}
+.footer_first ul li a{
+    text-decoration: none;
+    color: #365899;
+}
+.footer_first ul li a:hover{
+    text-decoration: underline;
+}
+.f_float{
+    float: left;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+.f_float a{
+    text-decoration: none;
+    color: #365899;
+    font-size: 12px;
+    line-height: 20px;
+}
+.f_float a:hover{
+    text-decoration: underline;
+}
+.f_float ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.copyright span{
+    font-size: 11px;
+    color: #737373;
+}
+.copyright{
+    margin-bottom: 20px;
+}
